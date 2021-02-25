@@ -205,7 +205,7 @@ section{
 }
 
 .boxM{
-    background: #4471e0;
+    /* background: #4471e0; */
     width: 90%;
     height: 90vh;
     padding: 10px;
@@ -234,7 +234,7 @@ section{
     justify-content: center;
     padding: 5px;
     font-size: 17px;
-    background-color: #e4f0f5;
+    /* background-color: #e4f0f5; */
 }
 #tabOx table{  
     width: 1000px;
@@ -362,23 +362,16 @@ section{
 
 @media screen and (max-width: 1500px) {
 
-    .boxM{
-        background: #294913;
-       
-    }
-   
     #vidOx iframe{
         width: 700px;
         height: 400px;
         display: flex;
        align-content: center;
     }
-
     #parOx p{
         width: 400px;
         height: 200px;
     }
-
     #tabOx table{
    
         width: 700px;
@@ -387,29 +380,20 @@ section{
         text-align: justify;
         background:rgb(0, 0, 0); 
     }
-
 }
-
 @media screen and (max-width: 1430px) {
 
-    .boxM{
-        background: #881b3b;
-       
-    }
-   
     #vidOx iframe{
         width: 600px;
         height: 400px;
         display: flex;
        align-content: center;
     }
-
     #parOx p{
         width:600px;
         height: 200px;
         margin-top: 10px;
     }
-
     #tabOx table{
    
         width: 600px;
@@ -419,23 +403,15 @@ section{
         text-align: justify;
         background:rgb(0, 0, 0); 
     }
-
 }
-
 @media screen and (max-width: 1024px) {
 
-    .boxM{
-        background: #7b21af;
-       
-    }
-   
     .nav-links{
         position: absolute;
         right: 0px;
         height: 70vh;
         top: 10vh;
         background-color: #4471e0;
-        /* background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%); */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -455,19 +431,16 @@ section{
     .burger{
         display:block;
     }
-
     #vidOx iframe{
         width: 600px;
         height: 400px;
         margin: 10px;
     }
-
     #parOx p{
         width: 600px;
         height: 200px;
         margin: 10px;
     }
-
     #tabOx table{
         margin: 10px;
         width: 600px;
@@ -476,9 +449,7 @@ section{
         text-align: justify;
         background:rgb(0, 0, 0); 
     }
-
 }
-
 @media screen and (max-width: 750px) {
 
     body{
@@ -490,7 +461,6 @@ section{
         height: 70vh;
         top: 10vh;
         background-color: #4471e0;
-        /* background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%); */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -527,19 +497,16 @@ section{
     .banner .content{
         text-align: justify;
     }
-  
     #vidOx iframe{
         width: 400px;
         height: 300px;
         margin: 20px;
     }
-
     #parOx p{
         width: 400px;
         height: 200px;
         margin: 20px;
     }
-
     #tabOx table{
         margin: 20px;
         width: 400px;
@@ -548,7 +515,6 @@ section{
         text-align: justify;
         background:rgb(0, 0, 0); 
     }
-   
 }
 @media screen and (max-width: 500px) {
 
@@ -598,50 +564,27 @@ section{
     .banner .content{
         text-align: justify;
     }
-
-
-/* 
-    .boxM{
-        background: #4c8488;
-       
-    } */
-
-    .boxM{
-        background: #4471e0;
-        width: 400px;
-    }
-
     #vidOx iframe{
         width: 300px;
         height: 00px;
-        /* margin: 20px; */
     }
-
     #parOx p{
         width: 300px;
         height: 300px;
-        /* margin: 20px; */
     }
-
     #tabOx table{
-        /* margin: 20px; */
         width: 300px;
         height: 300px;
         padding: 5px;
         font-size: 12px;
-        text-align: left;
-        background:rgb(0, 0, 0); 
-    }
-   
+    } 
 }
-
 
 
 /* Menu toggle section */
 .nav-active{
     transform: translateX(0%);
 }
-
 .toggle .line1{
     transform: rotate(-45deg) translate(-5px,7px);
 }
